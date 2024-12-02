@@ -1,0 +1,9 @@
+syntax = "proto3"
+
+message User
+{
+	optional string id = 1;
+	optional string userName = 2;
+	optional string age = 3;
+	optional string sex = 4;
+}
